@@ -30,17 +30,13 @@ export default function FinalCTABlock() {
           Quanto mais você adia, maior o prejuízo.
         </motion.p>
         
-        <p className="font-body text-lg md:text-xl text-black mt-16 mb-6 font-medium bg-black/10 px-6 py-2">
-          👉 Clique agora e fale direto no WhatsApp:
-        </p>
-
         <motion.a 
           whileHover={{ scale: 1.05 }}
           whileTap={{ scale: 0.95 }}
           href={whatsappUrl}
           target="_blank"
           rel="noopener noreferrer"
-          className="w-full md:w-auto bg-[#0D0D0D] text-white font-headline text-3xl md:text-4xl uppercase py-6 px-12 md:px-20 block mx-auto border-b-8 border-black hover:bg-[#1A1A1A] transition-colors shadow-2xl"
+          className="w-full md:w-auto mt-16 bg-[#0D0D0D] text-white font-headline text-3xl md:text-4xl uppercase py-6 px-12 md:px-20 block mx-auto border-b-8 border-black hover:bg-[#1A1A1A] transition-colors shadow-2xl"
         >
           👉 Quero fazer uma revisão completa agora
         </motion.a>
